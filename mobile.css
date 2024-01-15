@@ -1,0 +1,85 @@
+@media (width < 500px) {
+    .body {
+        background-image: url('./img/fondo/fondo.jpg');
+        background-repeat: no-repeat;
+        background-size: 80em 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        justify-content: start;
+        .color{
+            border: 1px solid white;
+        }
+    }
+    .collapse{
+        display: flex;
+        text-align: start;
+    }
+    #na {
+        text-align: start;
+        color: white;
+    }
+    .main-one{
+        .h1-logo{
+            font-size: 10rem;
+        }
+        .p-logo{
+            font-size: 1rem;
+            margin-top: -1rem;
+        }
+        .img-arrow{
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+    .content-video{
+        margin-bottom: 1px;
+    }
+    .box{
+        display: flex;
+        background-color: none;
+        flex-direction: column;
+    }
+    .name-box{
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-align: center;
+    }
+    .redes-sociales{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (width < 1200px) {
+    .body {
+        background-image: url('./img/fondo/fondo.jpg');
+        background-repeat: no-repeat;
+        background-size: 80em 100%;
+        height: 100%;
+    }
+}
+@media (width < 700px) {
+    .box{
+        display: flex;
+        background-color: none;
+        flex-direction: column;
+    }
+    .collapse{
+        display: flex;
+        text-align: start;
+    }
+    .name-box{
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-align: center;
+    }
+    .video{
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    overflow-x: hidden;
+    /*background: linear-gradient(#3f0404, #440202, #000000);*/
+    font-family: 'Tektur', sans-serif;
+    background-image: url('./img/fondo/fondo.jpg');
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-size: 120em 180em;
+    background-repeat: no-repeat;
+}
+
+.header {
+    font-size: 1.3em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#na {
+    color: rgb(255, 255, 255);
+}
+
+#na:hover {
+    filter: drop-shadow(0 0 1.5rem rgb(250, 250, 250));
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    color: white;
+    transform: scale(1.1);
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+#drop-menu{
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.main-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6%;
+    color: white;
+    flex-wrap: wrap;
+
+    .a-am {
+        pointer-events: none;
+    }
+
+    .h1-logo {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 18rem;
+    }
+
+    .rotate-center {
+        animation: rotate-center 0.5s;
+    }
+
+    .rotate-center:hover {
+        animation: rotate-center 0.5s infinite;
+        cursor: pointer;
+    }
+
+    @keyframes rotate-center {
+        0% {
+            transform: rotate(0)
+        }
+
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+
+    .p-logo {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 1.4rem;
+        margin-top: -2.5em;
+    }
+}
+
+.svg-idioma {
+    height: 20px;
+    width: 20px;
+}
+
+.btn-idioma {
+    background: linear-gradient(#3f0404, #440202, #000000);
+}
+
+.p-video {
+    color: white;
+}
+
+.main-two {
+    background-color: #000000;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: aliceblue;
+    padding: 3rem;
+    border-radius: 35px;
+    filter: drop-shadow(0 0 1rem rgb(233, 224, 226));
+
+    .about-me {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p-am {
+        padding-top: 2em;
+    }
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.ul-am {
+    list-style: decimal;
+}
+
+.content-apt-escu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-escudo {
+    height: 120px;
+    width: 100px;
+}
+
+.main-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    font-size: 2em;
+    text-decoration: underline;
+    color: white;
+
+    .content-video {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .video {
+            height: 200px;
+            width: 300px;
+        }
+    }
+}
+
+.main-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    .carousel {
+        background-color: #ffffff05;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(25px);
+        padding: 5em;
+        margin: 5em;
+        border-radius: 2em;
+    }
+
+    .h3-am {
+        text-decoration: underline;
+    }
+
+    .content-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box {
+        margin-left: 8%;
+        margin-right: 8%;
+        display: flex;
+        gap: 4%;
+        display: flex;
+        align-items: center;
+    }
+
+    .name-box {
+        font-size: 1.3em;
+    }
+
+    .text-box {
+        font-size: 1.2em;
+    }
+}
+
+.content-video {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.footer {
+    background-color: #000000;
+    margin-top: 5%;
+    height: 13.5em;
+
+    .h4 {
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        padding: 2em;
+        position: relative;
+    }
+
+    .svg-redes {
+        height: 2em;
+        width: 2em;
+    }
+
+    .svg-redes:hover {
+        filter: drop-shadow(0 0 1rem rgb(233, 224, 226));
+        transform: scale(1.1);
+    }
+
+    .copy {
+        color: white;
+        padding-left: 1em;
+        padding-top: 5px;
+        border-top: 2px solid #440202;
+    }
+}
