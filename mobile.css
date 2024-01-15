@@ -63,15 +63,26 @@
         height: 100%;
     }
 }
-@media (width < 700px) {
+@media (width < 800px) {
     .box{
         display: flex;
         background-color: none;
         flex-direction: column;
     }
+    .header {
+        display: flex;
+        justify-content: start;
+    }
+    #color{
+        border: 1px solid white;
+    }
     .collapse{
         display: flex;
         text-align: start;
+    }
+    #na {
+        text-align: start;
+        color: white;
     }
     .name-box{
         text-transform: uppercase;

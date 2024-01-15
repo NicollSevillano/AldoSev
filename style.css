@@ -42,12 +42,6 @@
     align-items: center;
 }
 
-#drop-menu{
-    background-color: #ffffff05;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(25px);
-}
-
 .main-one {
     display: flex;
     justify-content: center;
