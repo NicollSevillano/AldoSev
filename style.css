@@ -50,7 +50,7 @@
     margin: 6%;
     color: white;
     flex-wrap: wrap;
-
+    padding-bottom: 5%;
     .a-am {
         pointer-events: none;
     }
@@ -117,6 +117,9 @@
 
     .p-am {
         padding-top: 2em;
+    }
+    .escudo{
+        gap: 5%;
     }
 }
 
